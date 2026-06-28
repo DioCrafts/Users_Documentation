@@ -10,6 +10,15 @@ export default defineConfig({
   title: "AXIOM User Guide",
   description: "How to investigate, analyze, and act with AXIOM — a guide for everyday users.",
 
+  // Published as a GitHub Pages project site at
+  // https://diocrafts.github.io/Users_Documentation/ — the base path MUST match the
+  // repository name (with leading and trailing slashes) so assets resolve correctly.
+  base: "/Users_Documentation/",
+
+  sitemap: {
+    hostname: "https://diocrafts.github.io/Users_Documentation",
+  },
+
   lastUpdated: true,
   cleanUrls: true,
 
